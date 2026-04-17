@@ -29,7 +29,7 @@ export default function Home() {
         <Products />
         <UseCases />
         <Services />
-        <Process />
+        <Process onOpenDemo={openDemoModal} />
         <TechStack />
         <About />
         <CTA onOpenDemo={openDemoModal} />
