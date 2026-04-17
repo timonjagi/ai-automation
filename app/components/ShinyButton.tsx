@@ -15,9 +15,9 @@ export default function ShinyButton({ children, onClick, className = "", icon }:
       className={`shiny-cta ${className}`}
       onClick={onClick}
     >
-      <span className="flex items-center gap-2">
+      <span className="flex items-center gap-2 whitespace-nowrap">
         {children}
-        {icon && <Icon icon={icon} className="w-4 h-4" />}
+        {icon && <Icon icon={icon} className="w-4 h-4 shrink-0" />}
       </span>
     </button>
   );
