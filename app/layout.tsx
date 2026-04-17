@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ankush Mehra | AI Automation & Voice Agent Developer",
-  description: "I design AI systems that replace manual sales, support, and follow-ups. Specialized in n8n, Vapi, and LLM workflows.",
+  title: "Torus Labs | AI Systems That Call, Chat & Convert",
+  description: "We build self-hostable AI infrastructure and custom automation systems. From voice agents to marketing automation—see how we can solve your specific use case.",
 };
 
 export default function RootLayout({

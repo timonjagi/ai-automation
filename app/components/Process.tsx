@@ -1,17 +1,21 @@
 "use client";
 
-export default function Process() {
+interface ProcessProps {
+  onOpenDemo: () => void;
+}
+
+export default function Process({ onOpenDemo }: ProcessProps) {
   return (
     <section id="process" className="py-24 border-y border-white/5 bg-black/20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row gap-16">
           {/* Sticky Sidebar */}
           <div className="md:w-1/3 md:sticky md:top-32 md:h-fit">
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">How I Build Your System</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-6">How We Build With You</h2>
             <p className="text-neutral-400 mb-8">A transparent, engineering-focused approach. No magic, just logic.</p>
             <button
               className="px-5 py-2.5 rounded-lg bg-white text-black font-medium text-sm hover:bg-neutral-200 transition-colors"
-              onClick={() => window.location.href = "#contact"}
+              onClick={onOpenDemo}
             >
               Start the Process
             </button>
@@ -27,7 +31,7 @@ export default function Process() {
               </div>
               <div className="pb-8">
                 <h3 className="text-xl font-medium text-white mb-2">Audit & Logic Design</h3>
-                <p className="text-neutral-400 text-sm">We map out your current manual processes. I design the conversation flow and data logic before writing a single line of code.</p>
+                <p className="text-neutral-400 text-sm">We map out your current manual processes. We design the conversation flow and data logic before writing a single line of code.</p>
               </div>
             </div>
 
@@ -39,7 +43,7 @@ export default function Process() {
               </div>
               <div className="pb-8">
                 <h3 className="text-xl font-medium text-white mb-2">Build & Integration</h3>
-                <p className="text-neutral-400 text-sm">Connecting Vapi/Twilio with your CRM via n8n. I configure the LLM prompts to match your brand voice and sales objectives.</p>
+                <p className="text-neutral-400 text-sm">Connecting Vapi/Twilio with your CRM via n8n. We configure the LLM prompts to match your brand voice and sales objectives.</p>
               </div>
             </div>
 
@@ -51,7 +55,7 @@ export default function Process() {
               </div>
               <div className="pb-8">
                 <h3 className="text-xl font-medium text-white mb-2">Testing with Real Data</h3>
-                <p className="text-neutral-400 text-sm">Rigorous testing to ensure the AI handles objections, accents, and edge cases correctly. We refine latency and response quality.</p>
+                <p className="text-neutral-400 text-sm">Rigorous testing to ensure the AI handles objections, accents, and edge cases correctly. We refine latency and response quality together.</p>
               </div>
             </div>
 
@@ -62,7 +66,7 @@ export default function Process() {
               </div>
               <div>
                 <h3 className="text-xl font-medium text-white mb-2">Deployment & Handoff</h3>
-                <p className="text-neutral-400 text-sm">The system goes live. I provide documentation and a dashboard so you can monitor calls and leads without needing me.</p>
+                <p className="text-neutral-400 text-sm">The system goes live. We provide documentation and a dashboard so you can monitor calls and leads without needing us.</p>
               </div>
             </div>
           </div>
