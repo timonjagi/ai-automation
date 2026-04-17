@@ -28,7 +28,7 @@ export default function Hero({ onOpenDemo }: HeroProps) {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-neutral-400 max-w-2xl mx-auto leading-relaxed">
-          We build self-hostable AI infrastructure for messaging, marketing, project management, and operations — so you own your stack, not rent it.
+          Wake up to leads qualified, orders fulfilled, and projects delivered — all running on infrastructure you actually own.
         </p>
 
         {/* CTAs */}
