@@ -17,18 +17,18 @@ export default function Hero({ onOpenDemo }: HeroProps) {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
           </span>
-          POWERING AI INFRASTRUCTURE FOR 40+ COMPANIES
+          AUTOMATION THAT NEVER SLEEPS
         </div>
 
         {/* Headline */}
         <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white leading-[1.1]">
           AI Systems That <br />
-          <span className="text-neutral-500">Call, Chat, and Convert.</span>
+          <span className="text-neutral-500">Work While You Sleep.</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-neutral-400 max-w-2xl mx-auto leading-relaxed">
-          Torus Labs builds self-hostable AI infrastructure. From voice agents to marketing automation, own your stack without vendor lock-in.
+          We build self-hostable AI infrastructure for messaging, marketing, project management, and operations — so you own your stack, not rent it.
         </p>
 
         {/* CTAs */}
@@ -46,23 +46,23 @@ export default function Hero({ onOpenDemo }: HeroProps) {
           </a>
         </div>
 
-        {/* Credibility Metrics */}
+        {/* Value Props */}
         <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/5 mt-12 max-w-3xl mx-auto">
           <div className="text-center">
-            <p className="text-2xl font-bold text-white">40+</p>
-            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Companies Served</p>
+            <p className="text-lg font-bold text-white">Self-Hostable</p>
+            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Own Your Stack</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-white">99.9%</p>
-            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Uptime</p>
+            <p className="text-lg font-bold text-white">Always On</p>
+            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">24/7 Operations</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-white">15+</p>
-            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Countries</p>
+            <p className="text-lg font-bold text-white">No Lock-In</p>
+            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Open Standards</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-white">24/7</p>
-            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Support</p>
+            <p className="text-lg font-bold text-white">Multi-Product</p>
+            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Integrated Suite</p>
           </div>
         </div>
       </div>
