@@ -15,7 +15,7 @@ export default function Header({ onOpenDemo }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <Icon icon="lucide:cpu" className="w-4 h-4" />
+          <span className="text-2xl font-bold text-white">ⵣ</span>
           <span className="font-semibold tracking-tight text-sm">TORUS LABS</span>
         </div>
 
