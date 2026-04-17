@@ -67,18 +67,41 @@ export default function Products() {
             <span className="px-2 py-1 rounded-full bg-yellow-500/10 text-yellow-400 text-xs font-medium">Join Waitlist</span>
           </div>
           <h3 className="text-xl font-medium mb-2">ClawChat</h3>
-          <p className="text-green-400 text-sm font-medium mb-3">Conversational Commerce</p>
+          <p className="text-green-400 text-sm font-medium mb-3">AI Support Agent</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            Configurable e-commerce chat agent with generative UI. Embed on any website with a simple script. Built for marketplaces.
+            Intelligent support agent for order fulfillment, booking, onboarding, and customer service. Embed on any website with a simple script.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Generative UI components</li>
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> One-line script embed</li>
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Customizable flows</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Order tracking & fulfillment</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Appointment booking</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> User onboarding flows</li>
           </ul>
           <a href="https://clawchat.io" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-green-400 hover:text-green-300 transition-colors inline-flex items-center gap-2">
             Join Waitlist <Icon icon="lucide:arrow-up-right" className="w-4 h-4" />
           </a>
+        </GlassCard>
+
+        {/* ClawPM */}
+        <GlassCard hoverColor="cyan">
+          <div className="flex items-start justify-between mb-6">
+            <div className="w-12 h-12 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400">
+              <Icon icon="lucide:kanban" className="w-6 h-6" />
+            </div>
+            <span className="px-2 py-1 rounded-full bg-neutral-500/10 text-neutral-400 text-xs font-medium">Coming Soon</span>
+          </div>
+          <h3 className="text-xl font-medium mb-2">ClawPM</h3>
+          <p className="text-cyan-400 text-sm font-medium mb-3">OpenClaw Project Management</p>
+          <p className="text-neutral-400 text-sm leading-relaxed mb-4">
+            AI-powered project management dashboard with OpenClaw integration. Track tasks, manage workflows, and automate project communications.
+          </p>
+          <ul className="text-xs text-neutral-500 space-y-2 mb-6">
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Kanban boards & sprints</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> OpenClaw workflow triggers</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Automated status updates</li>
+          </ul>
+          <span className="text-sm font-medium text-neutral-500 inline-flex items-center gap-2">
+            Coming Q2 2025 <Icon icon="lucide:clock" className="w-4 h-4" />
+          </span>
         </GlassCard>
 
         {/* ClawSocial */}
