@@ -90,6 +90,48 @@ export default function UseCases() {
             </div>
           </div>
         </GlassCard>
+
+        {/* Use Case 5 - Solo Dev using ClawCode */}
+        <GlassCard className="flex flex-col justify-between">
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <Icon icon="lucide:user" className="w-5 h-5 text-neutral-400" />
+              <span className="text-sm font-semibold tracking-wide text-neutral-300">SOLO DEV</span>
+            </div>
+            <h3 className="text-2xl font-medium mb-4">Zero-Setup AI Coding</h3>
+            <p className="text-neutral-400 text-sm mb-6">
+              <strong>Problem:</strong> Hours wasted installing runtimes, configuring editors, and debugging environments before writing a single line of code.
+              <br /><br />
+              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> spins up a VPS with OpenCode and Claude Code pre-installed. Clone your repo and start shipping immediately.
+            </p>
+          </div>
+          <div className="bg-black/50 p-4 rounded-lg border border-white/5">
+            <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
+              <span className="text-amber-400">ClawCode:</span> &quot;Environment ready. OpenCode, Claude Code, and Git installed. What are we building?&quot;
+            </div>
+          </div>
+        </GlassCard>
+
+        {/* Use Case 6 - Teams using ClawCode */}
+        <GlassCard className="flex flex-col justify-between">
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <Icon icon="lucide:users" className="w-5 h-5 text-neutral-400" />
+              <span className="text-sm font-semibold tracking-wide text-neutral-300">TEAMS</span>
+            </div>
+            <h3 className="text-2xl font-medium mb-4">Standardized Dev Environments</h3>
+            <p className="text-neutral-400 text-sm mb-6">
+              <strong>Problem:</strong> New hires spend days setting up tools. &quot;Works on my machine&quot; becomes a weekly excuse.
+              <br /><br />
+              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> gives every team member an identical pre-configured environment with coding agents and dependencies locked in. Onboard in minutes.
+            </p>
+          </div>
+          <div className="bg-black/50 p-4 rounded-lg border border-white/5">
+            <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
+              <span className="text-amber-400">ClawCode:</span> &quot;New dev onboarded. Same stack, same agents, same config. Pushing first PR...&quot;
+            </div>
+          </div>
+        </GlassCard>
       </div>
     </section>
   );

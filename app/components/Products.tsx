@@ -35,6 +35,29 @@ export default function Products() {
           </a>
         </GlassCard>
 
+        {/* ClawCode */}
+        <GlassCard hoverColor="amber">
+          <div className="flex items-start justify-between mb-6">
+            <div className="w-12 h-12 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-400">
+              <Icon icon="lucide:code" className="w-6 h-6" />
+            </div>
+            <span className="px-2 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-medium">Available Now</span>
+          </div>
+          <h3 className="text-xl font-medium mb-2">ClawCode</h3>
+          <p className="text-amber-400 text-sm font-medium mb-3">AI Coding Infrastructure</p>
+          <p className="text-neutral-400 text-sm leading-relaxed mb-4">
+            VPS pre-configured with AI coding agents—OpenCode, Claude Code, and more. Go from zero to shipping in minutes, not hours.
+          </p>
+          <ul className="text-xs text-neutral-500 space-y-2 mb-6">
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Pre-installed coding agents</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Ready-to-code terminal</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Git & repo management built in</li>
+          </ul>
+          <a href="https://clawcode.io" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center gap-2">
+            Deploy Now <Icon icon="lucide:arrow-up-right" className="w-4 h-4" />
+          </a>
+        </GlassCard>
+
         {/* ClawCRM */}
         <GlassCard hoverColor="purple">
           <div className="flex items-start justify-between mb-6">
