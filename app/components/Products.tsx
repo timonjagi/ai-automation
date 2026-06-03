@@ -104,7 +104,7 @@ export default function Products() {
           </a>
         </GlassCard>
 
-        {/* ClawPM */}
+        {/* ClawProject */}
         <GlassCard hoverColor="cyan">
           <div className="flex items-start justify-between mb-6">
             <div className="w-12 h-12 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400">
@@ -112,7 +112,7 @@ export default function Products() {
             </div>
             <span className="px-2 py-1 rounded-full bg-neutral-500/10 text-neutral-400 text-xs font-medium">Coming Soon</span>
           </div>
-          <h3 className="text-xl font-medium mb-2">ClawPM</h3>
+          <h3 className="text-xl font-medium mb-2">ClawProject</h3>
           <p className="text-cyan-400 text-sm font-medium mb-3">OpenClaw Project Management</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
             AI-powered project management dashboard with OpenClaw integration. Track tasks, manage workflows, and automate project communications.

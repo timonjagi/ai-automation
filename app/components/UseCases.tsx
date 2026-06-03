@@ -49,7 +49,7 @@ export default function UseCases() {
           </div>
         </GlassCard>
 
-        {/* Use Case 3 - Project Management using ClawPM */}
+        {/* Use Case 3 - Project Management using ClawProject */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -60,12 +60,12 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Project status scattered across tools, missed deadlines, manual client updates.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-cyan-400 font-medium">ClawPM</span> tracks tasks, automates status reports to clients via WhatsApp/email, and triggers OpenClaw workflows when milestones hit.
+              <strong>Solution:</strong> <span className="text-cyan-400 font-medium">ClawProject</span> tracks tasks, automates status reports to clients via WhatsApp/email, and triggers OpenClaw workflows when milestones hit.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-cyan-400">ClawPM:</span> &quot;Sprint 3 complete. Deploying to staging and notifying client...&quot;
+              <span className="text-cyan-400">ClawProject:</span> &quot;Sprint 3 complete. Deploying to staging and notifying client...&quot;
             </div>
           </div>
         </GlassCard>
