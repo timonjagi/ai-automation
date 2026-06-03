@@ -102,12 +102,12 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Hours wasted installing runtimes, configuring editors, and debugging environments before writing a single line of code.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> spins up a VPS with OpenCode and Claude Code pre-installed. Clone your repo and start shipping immediately.
+              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> spins up a VPS with OpenCode and Claude Code pre-installed. Manage it from your phone, browser, or web dashboard—clone your repo and ship immediately.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-amber-400">ClawCode:</span> &quot;Environment ready. OpenCode, Claude Code, and Git installed. What are we building?&quot;
+              <span className="text-amber-400">ClawCode:</span> &quot;Environment ready. OpenCode, Claude Code, Git, and dashboard installed. What are we building?&quot;
             </div>
           </div>
         </GlassCard>
@@ -123,12 +123,12 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> New hires spend days setting up tools. &quot;Works on my machine&quot; becomes a weekly excuse.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> gives every team member an identical pre-configured environment with coding agents and dependencies locked in. Onboard in minutes.
+              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> gives every team member an identical environment with OpenCode and Claude Code. Monitor activity from the web dashboard or Android app. Onboard in minutes.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-amber-400">ClawCode:</span> &quot;New dev onboarded. Same stack, same agents, same config. Pushing first PR...&quot;
+              <span className="text-amber-400">ClawCode:</span> &quot;New dev onboarded. Same stack, same agents, same config. Dashboard synced. Pushing first PR...&quot;
             </div>
           </div>
         </GlassCard>

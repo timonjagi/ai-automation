@@ -46,12 +46,12 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">ClawCode</h3>
           <p className="text-amber-400 text-sm font-medium mb-3">AI Coding Infrastructure</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            VPS pre-configured with AI coding agents—OpenCode, Claude Code, and more. Go from zero to shipping in minutes, not hours.
+            VPS pre-configured with OpenCode and Claude Code. Manage your environment from the web dashboard, Android app, or browser terminal—code from anywhere.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Pre-installed coding agents</li>
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Ready-to-code terminal</li>
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Git & repo management built in</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> OpenCode & Claude Code pre-installed</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Web dashboard & Android app</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Browser terminal & file manager</li>
           </ul>
           <a href="https://clawcode.io" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors inline-flex items-center gap-2">
             Deploy Now <Icon icon="lucide:arrow-up-right" className="w-4 h-4" />
