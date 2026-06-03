@@ -20,6 +20,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Technologies Used
+
+This project leverages the following technologies:
+
+- **n8n** - Workflow automation platform
+- **OpenAI** - AI language models
+- **Twilio** - Communication APIs
+- **Vapi** - Voice AI platform
+- **WhatsApp API** - Messaging integration
+- **Hetzner** - Cloud infrastructure
+- **PostgreSQL** - Database
+- **OpenClaw** - Personal AI assistant
+- **TailScale** - Secure networking
+- **OpenCode** - Code development tools
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

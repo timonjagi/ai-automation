@@ -51,6 +51,24 @@ export default function TechStack() {
             <Icon icon="simple-icons:postgresql" className="w-5 h-5 text-blue-400" />
             <span className="text-sm font-medium text-white">PostgreSQL</span>
           </div>
+
+          {/* OpenClaw */}
+          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
+            <Icon icon="lucide:bot" className="w-5 h-5 text-purple-400" />
+            <span className="text-sm font-medium text-white">OpenClaw</span>
+          </div>
+
+          {/* TailScale */}
+          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
+            <Icon icon="simple-icons:tailscale" className="w-5 h-5 text-blue-500" />
+            <span className="text-sm font-medium text-white">TailScale</span>
+          </div>
+
+          {/* OpenCode */}
+          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
+            <Icon icon="lucide:code" className="w-5 h-5 text-green-500" />
+            <span className="text-sm font-medium text-white">OpenCode</span>
+          </div>
         </div>
       </div>
     </section>
