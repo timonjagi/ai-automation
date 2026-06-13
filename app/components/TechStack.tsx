@@ -16,12 +16,6 @@ export default function TechStack() {
             <span className="text-sm font-medium text-white">n8n</span>
           </div>
 
-          {/* OpenAI */}
-          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
-            <Icon icon="simple-icons:openai" className="w-5 h-5 text-green-400" />
-            <span className="text-sm font-medium text-white">OpenAI</span>
-          </div>
-
           {/* Twilio */}
           <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
             <Icon icon="simple-icons:twilio" className="w-5 h-5 text-red-400" />
@@ -76,11 +70,6 @@ export default function TechStack() {
             <span className="text-sm font-medium text-white">Hermes Agent</span>
           </div>
 
-          {/* Claude */}
-          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
-            <Icon icon="simple-icons:anthropic" className="w-5 h-5 text-orange-300" />
-            <span className="text-sm font-medium text-white">Claude</span>
-          </div>
         </div>
       </div>
     </section>

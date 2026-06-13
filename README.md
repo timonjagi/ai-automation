@@ -25,7 +25,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 This project leverages the following technologies:
 
 - **n8n** - Workflow automation platform
-- **OpenAI** - AI language models
 - **Twilio** - Communication APIs
 - **Vapi** - Voice AI platform
 - **WhatsApp API** - Messaging integration

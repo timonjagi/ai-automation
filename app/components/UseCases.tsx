@@ -6,7 +6,7 @@ export default function UseCases() {
     <section id="use-cases" className="py-24 px-6 max-w-7xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-center mb-4">Real World Applications</h2>
       <p className="text-neutral-400 text-center max-w-2xl mx-auto mb-16">
-        AI agents solving real problems across industries. Every scenario below is powered by your choice of agent—OpenClaw, Hermes Agent, Claude, or GPT.
+        AI agents solving real problems across industries. Every scenario below is powered by your choice of agent—OpenClaw or Hermes Agent.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8">

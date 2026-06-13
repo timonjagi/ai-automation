@@ -7,7 +7,7 @@ export default function Products() {
       <div className="mb-16">
         <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">Built by Torus Labs</h2>
         <p className="text-neutral-400 max-w-xl">
-          Self-serve products available, or we can customize for your enterprise needs. These are not demos—they are production systems we run ourselves.
+          Self-serve products available, or we can customize for your enterprise needs. These are not demos—they are production systems we run ourselves. Bring your own API key—powered by OpenClaw and Hermes Agent.
         </p>
       </div>
 
@@ -23,7 +23,7 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusVPS</h3>
           <p className="text-blue-400 text-sm font-medium mb-3">Self-Hosted AI Infrastructure</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            Deploy your AI agent on a dedicated VPS in under a minute. Bring your own API key—OpenClaw, Hermes Agent, Claude, or GPT. One-click provisioning, automatic SSL, browser terminal, and full root access.
+            Deploy your AI agent on a dedicated VPS in under a minute. One-click provisioning, automatic SSL, browser terminal, and full root access.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Hetzner-powered servers</li>
