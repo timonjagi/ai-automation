@@ -23,6 +23,7 @@ export default function Header({ onOpenDemo }: HeaderProps) {
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-400">
           <a href="#products" className="hover:text-white transition-colors">Products</a>
           <a href="#use-cases" className="hover:text-white transition-colors">Use Cases</a>
+          <a href="/solutions" className="hover:text-white transition-colors">Solutions</a>
           <a href="#process" className="hover:text-white transition-colors">Process</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
         </nav>
@@ -49,7 +50,7 @@ export default function Header({ onOpenDemo }: HeaderProps) {
         <div className="absolute top-16 left-0 w-full bg-neutral-900 border-b border-white/10 p-4 flex flex-col gap-4 md:hidden">
           <a href="#products" className="text-neutral-400 hover:text-white">Products</a>
           <a href="#use-cases" className="text-neutral-400 hover:text-white">Use Cases</a>
-          <a href="#process" className="text-neutral-400 hover:text-white">Process</a>
+          <a href="/solutions" className="text-neutral-400 hover:text-white">Solutions</a>
           <button onClick={onOpenDemo} className="text-blue-400 text-left">Book a Demo</button>
         </div>
       )}
