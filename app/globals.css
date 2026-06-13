@@ -139,7 +139,9 @@
 .shiny-cta span {
   position: relative;
   z-index: 2;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .shiny-cta span::before {
