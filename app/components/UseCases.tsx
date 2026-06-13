@@ -7,7 +7,7 @@ export default function UseCases() {
       <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-center mb-16">Real World Applications</h2>
 
       <div className="grid md:grid-cols-2 gap-8">
-        {/* Use Case 1 - Real Estate using ClawCRM */}
+        {/* Use Case 1 - Real Estate using TorusCRM */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -18,17 +18,17 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Leads turn cold if not contacted within 5 minutes. Agents sleep or get busy.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-purple-400 font-medium">ClawCRM</span> triggers instant multi-channel outreach (email, WhatsApp, voice) when forms are submitted, qualifies leads, and auto-books viewings.
+              <strong>Solution:</strong> <span className="text-purple-400 font-medium">TorusCRM</span> triggers instant multi-channel outreach (email, WhatsApp, voice) when forms are submitted, qualifies leads, and auto-books viewings.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-purple-400">ClawCRM:</span> &quot;Hi, I saw you were interested in the downtown property. Booking a viewing for tomorrow 2pm?&quot;
+              <span className="text-purple-400">TorusCRM:</span> &quot;Hi, I saw you were interested in the downtown property. Booking a viewing for tomorrow 2pm?&quot;
             </div>
           </div>
         </GlassCard>
 
-        {/* Use Case 2 - E-Commerce using ClawChat */}
+        {/* Use Case 2 - E-Commerce using TorusChat */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -39,17 +39,17 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> CS teams overwhelmed with &quot;Where is my order?&quot; tickets.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-green-400 font-medium">ClawChat</span> embeds on your store to handle order tracking, delivery updates, and abandoned cart recovery via WhatsApp—all without human intervention.
+              <strong>Solution:</strong> <span className="text-green-400 font-medium">TorusChat</span> embeds on your store to handle order tracking, delivery updates, and abandoned cart recovery via WhatsApp—all without human intervention.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-green-400">ClawChat:</span> &quot;Your package #492 is out for delivery today. Need to reschedule?&quot;
+              <span className="text-green-400">TorusChat:</span> &quot;Your package #492 is out for delivery today. Need to reschedule?&quot;
             </div>
           </div>
         </GlassCard>
 
-        {/* Use Case 3 - Project Management using ClawProject */}
+        {/* Use Case 3 - Project Management using TorusProject */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -60,17 +60,17 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Project status scattered across tools, missed deadlines, manual client updates.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-cyan-400 font-medium">ClawProject</span> tracks tasks, automates status reports to clients via WhatsApp/email, and triggers OpenClaw workflows when milestones hit.
+              <strong>Solution:</strong> <span className="text-cyan-400 font-medium">TorusProject</span> tracks tasks, automates status reports to clients via WhatsApp/email, and triggers agent workflows when milestones hit.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-cyan-400">ClawProject:</span> &quot;Sprint 3 complete. Deploying to staging and notifying client...&quot;
+              <span className="text-cyan-400">TorusProject:</span> &quot;Sprint 3 complete. Deploying to staging and notifying client...&quot;
             </div>
           </div>
         </GlassCard>
 
-        {/* Use Case 4 - Social Media using ClawSocial */}
+        {/* Use Case 4 - Social Media using TorusSocial */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -81,17 +81,17 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Managing multiple platforms, inconsistent posting, hours wasted on manual scheduling.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-pink-400 font-medium">ClawSocial</span> schedules across all platforms from one dashboard, auto-generates content variations, and engages with your community using AI.
+              <strong>Solution:</strong> <span className="text-pink-400 font-medium">TorusSocial</span> schedules across all platforms from one dashboard, auto-generates content variations, and engages with your community using AI.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-pink-400">ClawSocial:</span> &quot;Posted to 5 platforms. Engagement up 23%. Responding to comments...&quot;
+              <span className="text-pink-400">TorusSocial:</span> &quot;Posted to 5 platforms. Engagement up 23%. Responding to comments...&quot;
             </div>
           </div>
         </GlassCard>
 
-        {/* Use Case 5 - Solo Dev using ClawCode */}
+        {/* Use Case 5 - Solo Dev using TorusCode */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -102,17 +102,17 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Hours wasted installing runtimes, configuring editors, and debugging environments before writing a single line of code.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> spins up a VPS with OpenCode and Claude Code pre-installed. Manage it from your phone, browser, or web dashboard—clone your repo and ship immediately.
+              <strong>Solution:</strong> <span className="text-amber-400 font-medium">TorusCode</span> spins up a VPS with OpenCode and Claude Code pre-installed. Manage it from your phone, browser, or web dashboard—clone your repo and ship immediately.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-amber-400">ClawCode:</span> &quot;Environment ready. OpenCode, Claude Code, Git, and dashboard installed. What are we building?&quot;
+              <span className="text-amber-400">TorusCode:</span> &quot;Environment ready. OpenCode, Claude Code, Git, and dashboard installed. What are we building?&quot;
             </div>
           </div>
         </GlassCard>
 
-        {/* Use Case 6 - Teams using ClawCode */}
+        {/* Use Case 6 - Teams using TorusCode */}
         <GlassCard className="flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
@@ -123,12 +123,12 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> New hires spend days setting up tools. &quot;Works on my machine&quot; becomes a weekly excuse.
               <br /><br />
-              <strong>Solution:</strong> <span className="text-amber-400 font-medium">ClawCode</span> gives every team member an identical environment with OpenCode and Claude Code. Monitor activity from the web dashboard or Android app. Onboard in minutes.
+              <strong>Solution:</strong> <span className="text-amber-400 font-medium">TorusCode</span> gives every team member an identical environment with OpenCode and Claude Code. Monitor activity from the web dashboard or Android app. Onboard in minutes.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-amber-400">ClawCode:</span> &quot;New dev onboarded. Same stack, same agents, same config. Dashboard synced. Pushing first PR...&quot;
+              <span className="text-amber-400">TorusCode:</span> &quot;New dev onboarded. Same stack, same agents, same config. Dashboard synced. Pushing first PR...&quot;
             </div>
           </div>
         </GlassCard>

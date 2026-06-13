@@ -69,6 +69,18 @@ export default function TechStack() {
             <Icon icon="lucide:code" className="w-5 h-5 text-green-500" />
             <span className="text-sm font-medium text-white">OpenCode</span>
           </div>
+
+          {/* Hermes Agent */}
+          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
+            <Icon icon="lucide:bot" className="w-5 h-5 text-yellow-400" />
+            <span className="text-sm font-medium text-white">Hermes Agent</span>
+          </div>
+
+          {/* Claude */}
+          <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/10 transition-colors">
+            <Icon icon="simple-icons:anthropic" className="w-5 h-5 text-orange-300" />
+            <span className="text-sm font-medium text-white">Claude</span>
+          </div>
         </div>
       </div>
     </section>
