@@ -23,7 +23,7 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusVPS</h3>
           <p className="text-blue-400 text-sm font-medium mb-3">Self-Hosted AI Infrastructure</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            Deploy your AI agent on a dedicated VPS in under a minute. Choose from OpenClaw, Hermes Agent, Claude, or GPT. One-click provisioning, automatic SSL, browser terminal, and full root access.
+            Deploy your AI agent on a dedicated VPS in under a minute. Bring your own API key—OpenClaw, Hermes Agent, Claude, or GPT. One-click provisioning, automatic SSL, browser terminal, and full root access.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Hetzner-powered servers</li>
@@ -46,10 +46,10 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusCode</h3>
           <p className="text-amber-400 text-sm font-medium mb-3">AI Coding Infrastructure</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            VPS pre-configured with OpenCode and Claude Code. Power it with your choice of agent—OpenClaw, Hermes Agent, Claude, or GPT. Manage from the web dashboard, Android app, or browser terminal.
+            VPS pre-configured with OpenCode. Manage from the web dashboard, Android app, or browser terminal—code from anywhere.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> OpenCode & Claude Code pre-installed</li>
+            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> OpenCode pre-installed</li>
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Web dashboard & Android app</li>
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Browser terminal & file manager</li>
           </ul>
@@ -69,7 +69,7 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusCRM</h3>
           <p className="text-purple-400 text-sm font-medium mb-3">AI Marketing Operations</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            CRM, outreach sequencing, content ops, and analytics in one dashboard. Built for AI agent teams with local-first architecture. Powered by OpenClaw, Hermes Agent, Claude, or GPT.
+            CRM, outreach sequencing, content ops, and analytics in one dashboard. Built for AI agent teams with local-first architecture.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Lead tracking & pipeline</li>
@@ -92,7 +92,7 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusChat</h3>
           <p className="text-green-400 text-sm font-medium mb-3">AI Support Agent</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            Intelligent support agent for order fulfillment, booking, onboarding, and customer service. Choose your agent—OpenClaw, Hermes Agent, Claude, or GPT. Embed on any website with a simple script.
+            Intelligent support agent for order fulfillment, booking, onboarding, and customer service. Embed on any website with a simple script.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Order tracking & fulfillment</li>
@@ -115,7 +115,7 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusProject</h3>
           <p className="text-cyan-400 text-sm font-medium mb-3">AI Project Management</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            AI-powered project management dashboard with agent integration. Track tasks, manage workflows, and automate project communications. Powered by OpenClaw, Hermes Agent, Claude, or GPT.
+            AI-powered project management dashboard with agent integration. Track tasks, manage workflows, and automate project communications.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Kanban boards & sprints</li>
@@ -138,7 +138,7 @@ export default function Products() {
           <h3 className="text-xl font-medium mb-2">TorusSocial</h3>
           <p className="text-pink-400 text-sm font-medium mb-3">Social Media Automation</p>
           <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            AI-powered social media management and automation. Schedule, publish, and engage across all major platforms. Powered by OpenClaw, Hermes Agent, Claude, or GPT.
+            AI-powered social media management and automation. Schedule, publish, and engage across all major platforms.
           </p>
           <ul className="text-xs text-neutral-500 space-y-2 mb-6">
             <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Multi-platform publishing</li>

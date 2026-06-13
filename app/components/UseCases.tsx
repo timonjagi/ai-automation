@@ -105,12 +105,12 @@ export default function UseCases() {
             <p className="text-neutral-400 text-sm mb-6">
               <strong>Problem:</strong> Hours wasted installing runtimes, configuring editors, and debugging environments before writing a single line of code.
               <br /><br />
-              <strong>Solution:</strong> A pre-configured environment spins up with OpenCode and Claude Code. Manage it from your phone, browser, or web dashboard—clone your repo and ship immediately.
+              <strong>Solution:</strong> A pre-configured environment spins up with OpenCode. Manage it from your phone, browser, or web dashboard—clone your repo and ship immediately.
             </p>
           </div>
           <div className="bg-black/50 p-4 rounded-lg border border-white/5">
             <div className="flex items-center gap-3 text-xs text-neutral-400 font-mono">
-              <span className="text-amber-400">Agent:</span> &quot;Environment ready. OpenCode, Claude Code, Git, and dashboard installed. What are we building?&quot;
+              <span className="text-amber-400">Agent:</span> &quot;Environment ready. OpenCode, Git, and dashboard installed. What are we building?&quot;
             </div>
           </div>
         </GlassCard>
