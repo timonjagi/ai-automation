@@ -12,29 +12,6 @@ export default function Products() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
-        {/* TorusVPS */}
-        <GlassCard hoverColor="blue">
-          <div className="flex items-start justify-between mb-6">
-            <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400">
-              <Icon icon="lucide:server" className="w-6 h-6" />
-            </div>
-            <span className="px-2 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-medium">Available Now</span>
-          </div>
-          <h3 className="text-xl font-medium mb-2">TorusVPS</h3>
-          <p className="text-blue-400 text-sm font-medium mb-3">Self-Hosted AI Infrastructure</p>
-          <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-            Deploy your AI agent on a dedicated VPS in under a minute. One-click provisioning, automatic SSL, browser terminal, and full root access.
-          </p>
-          <ul className="text-xs text-neutral-500 space-y-2 mb-6">
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Hetzner-powered servers</li>
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> Automatic DNS & SSL</li>
-            <li className="flex items-center gap-2"><Icon icon="lucide:check" className="w-4 h-4" /> WebSocket browser terminal</li>
-          </ul>
-          <a href="https://torusvps.io" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center gap-2">
-            Deploy Now <Icon icon="lucide:arrow-up-right" className="w-4 h-4" />
-          </a>
-        </GlassCard>
-
         {/* TorusCode */}
         <GlassCard hoverColor="amber">
           <div className="flex items-start justify-between mb-6">

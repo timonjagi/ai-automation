@@ -15,7 +15,7 @@ export default function CTA({ onOpenDemo }: CTAProps) {
           Ready to own your AI infrastructure?
         </h2>
         <p className="text-lg text-neutral-400">
-          Get started with TorusVPS in under a minute, or let&apos;s discuss your custom requirements. See how Torus Labs can solve your specific use case.
+          Deploy a product in under a minute, or let&apos;s discuss your custom requirements. See how Torus Labs can solve your specific use case.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <ShinyButton onClick={onOpenDemo} icon="lucide:arrow-right">
