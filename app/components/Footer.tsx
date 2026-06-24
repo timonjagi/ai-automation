@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex gap-8 text-sm font-medium text-neutral-400">
           <a href="#" className="hover:text-white transition-colors">Privacy</a>
           <a href="#" className="hover:text-white transition-colors">Terms</a>
-          <a href="mailto:hello@timothynjagi.com" className="hover:text-white transition-colors">Email Me</a>
+          <a href="mailto:timothynjagi@gmail.com" className="hover:text-white transition-colors">Email Me</a>
         </div>
       </div>
     </footer>
