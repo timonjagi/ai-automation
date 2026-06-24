@@ -12,7 +12,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <span className="text-2xl font-bold text-white">ⵣ</span>
-          <span className="font-semibold tracking-tight text-sm">ANKUSH MEHRA</span>
+          <span className="font-semibold tracking-tight text-sm">TIMOTHY NJAGI</span>
         </div>
 
         {/* Desktop Nav */}

@@ -14,7 +14,7 @@ export default function About() {
 
           {/* Bio Content */}
           <div className="w-full md:w-2/3 space-y-6">
-            <h2 className="text-3xl font-semibold tracking-tight">I&apos;m Ankush Mehra.</h2>
+            <h2 className="text-3xl font-semibold tracking-tight">I&apos;m Timothy Njagi.</h2>
             <h3 className="text-xl text-neutral-400 font-medium">I build systems, not demos.</h3>
             <p className="text-neutral-400 leading-relaxed">
               The AI space is full of noise. Everyone is selling a course or showing off a flashy demo that breaks in production. I operate differently.
