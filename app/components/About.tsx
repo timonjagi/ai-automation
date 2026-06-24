@@ -5,10 +5,9 @@ export default function About() {
     <section id="about" className="bg-gradient-to-b from-black to-neutral-900/50 border-white/5 border-t pt-24 pb-24">
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Placeholder Image */}
           <div className="w-full md:w-1/3">
-            <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-br from-blue-500/10 to-purple-500/10 flex items-center justify-center">
-              <Icon icon="lucide:user" className="w-24 h-24 text-white/20" />
+            <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 grayscale hover:grayscale-0 transition-all duration-700">
+              <img src="/timothy-njagi.png" alt="Timothy Njagi" className="w-full h-full object-contain" />
             </div>
           </div>
 
