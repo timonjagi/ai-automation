@@ -1,13 +1,6 @@
-"use client";
-
 import { Icon } from "@iconify/react";
-import ShinyButton from "./ShinyButton";
 
-interface HeroProps {
-  onOpenDemo: () => void;
-}
-
-export default function Hero({ onOpenDemo }: HeroProps) {
+export default function Hero() {
   return (
     <section className="relative pt-40 pb-20 md:pt-48 md:pb-32 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -22,8 +15,8 @@ export default function Hero({ onOpenDemo }: HeroProps) {
 
         {/* Headline */}
         <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white leading-[1.1]">
-          AI Systems That <br />
-          <span className="text-neutral-500">Work While You Sleep.</span>
+          Automation That <br />
+          <span className="text-neutral-500">Works While You Sleep.</span>
         </h1>
 
         {/* Subtitle */}
@@ -33,9 +26,13 @@ export default function Hero({ onOpenDemo }: HeroProps) {
 
         {/* CTAs */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 pt-4">
-          <ShinyButton onClick={onOpenDemo} icon="lucide:arrow-right">
-            Book a Demo
-          </ShinyButton>
+          <a
+            href="#contact"
+            className="shiny-cta inline-flex items-center gap-2"
+          >
+            <span>Book Your Strategy Call</span>
+            <Icon icon="lucide:arrow-right" className="w-5 h-5" />
+          </a>
 
           <a
             href="#use-cases"
@@ -47,7 +44,7 @@ export default function Hero({ onOpenDemo }: HeroProps) {
         </div>
 
         {/* Value Props */}
-        <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/5 mt-12 max-w-3xl mx-auto">
+        <div className="pt-12 grid grid-cols-2 md:grid-cols-3 gap-8 border-t border-white/5 mt-12 max-w-2xl mx-auto">
           <div className="text-center">
             <p className="text-lg font-bold text-white">Self-Hostable</p>
             <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Own Your Stack</p>
@@ -59,10 +56,6 @@ export default function Hero({ onOpenDemo }: HeroProps) {
           <div className="text-center">
             <p className="text-lg font-bold text-white">No Lock-In</p>
             <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Open Standards</p>
-          </div>
-          <div className="text-center">
-            <p className="text-lg font-bold text-white">Multi-Product</p>
-            <p className="text-xs text-neutral-500 uppercase tracking-wide mt-1">Integrated Suite</p>
           </div>
         </div>
       </div>

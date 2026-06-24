@@ -3,11 +3,7 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 
-interface HeaderProps {
-  onOpenDemo: () => void;
-}
-
-export default function Header({ onOpenDemo }: HeaderProps) {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -16,25 +12,24 @@ export default function Header({ onOpenDemo }: HeaderProps) {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <span className="text-2xl font-bold text-white">ⵣ</span>
-          <span className="font-semibold tracking-tight text-sm">TORUS LABS</span>
+          <span className="font-semibold tracking-tight text-sm">ANKUSH MEHRA</span>
         </div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-400">
-          <a href="#products" className="hover:text-white transition-colors">Products</a>
+          <a href="#services" className="hover:text-white transition-colors">Services</a>
           <a href="#use-cases" className="hover:text-white transition-colors">Use Cases</a>
-          <a href="/solutions" className="hover:text-white transition-colors">Solutions</a>
           <a href="#process" className="hover:text-white transition-colors">Process</a>
           <a href="#about" className="hover:text-white transition-colors">About</a>
         </nav>
 
         {/* CTA Button */}
-        <button
-          onClick={onOpenDemo}
+        <a
+          href="#contact"
           className="hidden md:block px-4 py-2 text-sm font-medium text-black bg-white rounded-lg hover:bg-neutral-200 transition-colors"
         >
-          Book a Demo
-        </button>
+          Book a Call
+        </a>
 
         {/* Mobile Menu Toggle */}
         <button
@@ -48,10 +43,11 @@ export default function Header({ onOpenDemo }: HeaderProps) {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-neutral-900 border-b border-white/10 p-4 flex flex-col gap-4 md:hidden">
-          <a href="#products" className="text-neutral-400 hover:text-white">Products</a>
+          <a href="#services" className="text-neutral-400 hover:text-white">Services</a>
           <a href="#use-cases" className="text-neutral-400 hover:text-white">Use Cases</a>
-          <a href="/solutions" className="text-neutral-400 hover:text-white">Solutions</a>
-          <button onClick={onOpenDemo} className="text-blue-400 text-left">Book a Demo</button>
+          <a href="#process" className="text-neutral-400 hover:text-white">Process</a>
+          <a href="#about" className="text-neutral-400 hover:text-white">About</a>
+          <a href="#contact" className="text-blue-400">Book a Call</a>
         </div>
       )}
     </header>
